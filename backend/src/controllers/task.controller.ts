@@ -1,8 +1,10 @@
 import { Request, Response, NextFunction } from "express";
 import { validationResult } from "express-validator";
-import Task from "../models/task.model";
 import { AppError } from "../middlewares/error.middleware";
-import logger from "../utils/logger";
+import { TaskService } from "../services/task.service";
+
+// Instanciar el servicio de tareas
+const taskService = new TaskService();
 
 // @desc    Obtener todas las tareas del usuario
 // @route   GET /api/tasks
@@ -12,32 +14,15 @@ export const getTasks = async (req: Request, res: Response, next: NextFunction):
         // Obtener parámetros de consulta
         const { completed, priority, sort } = req.query;
 
-        // Construir query
-        let query: any = { user: req.user._id };
+        // Obtener el ID del usuario desde el middleware de autenticación
+        const userId = req.user._id;
 
-        // Filtrar por estado de completado si se proporciona
-        if (completed !== undefined) {
-            query.completed = completed === "true";
-        }
-
-        // Filtrar por prioridad si se proporciona
-        if (priority) {
-            query.priority = priority;
-        }
-
-        // Construir la consulta
-        let taskQuery = Task.find(query);
-
-        // Ordenar resultados
-        if (sort) {
-            const sortBy = (sort as string).split(",").join(" ");
-            taskQuery = taskQuery.sort(sortBy);
-        } else {
-            taskQuery = taskQuery.sort("-createdAt"); // Por defecto, ordenar por fecha de creación descendente
-        }
-
-        // Ejecutar la consulta
-        const tasks = await taskQuery;
+        // Delegar al servicio
+        const tasks = await taskService.getTasks(userId, {
+            completed: completed as any,
+            priority: priority as string,
+            sort: sort as string,
+        });
 
         // Responder con las tareas
         res.status(200).json({
@@ -47,8 +32,6 @@ export const getTasks = async (req: Request, res: Response, next: NextFunction):
                 tasks,
             },
         });
-
-        logger.debug(`Usuario ${req.user._id} obtuvo sus tareas`);
     } catch (error) {
         next(error);
     }
@@ -59,16 +42,13 @@ export const getTasks = async (req: Request, res: Response, next: NextFunction):
 // @access  Private
 export const getTask = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        const task = await Task.findOne({
-            _id: req.params.id,
-            user: req.user._id,
-        });
+        const taskId = req.params.id;
+        const userId = req.user._id;
 
-        if (!task) {
-            next(new AppError("Tarea no encontrada", 404));
-            return;
-        }
+        // Delegar al servicio
+        const task = await taskService.getTaskById(taskId, userId);
 
+        // Responder con la tarea
         res.status(200).json({
             status: "success",
             data: {
@@ -92,20 +72,18 @@ export const createTask = async (req: Request, res: Response, next: NextFunction
             return;
         }
 
-        // Añadir el ID del usuario a la tarea
-        req.body.user = req.user._id;
+        const userId = req.user._id;
 
-        // Crear la tarea
-        const task = await Task.create(req.body);
+        // Delegar al servicio
+        const task = await taskService.createTask(req.body, userId);
 
+        // Responder con la tarea creada
         res.status(201).json({
             status: "success",
             data: {
                 task,
             },
         });
-
-        logger.info(`Usuario ${req.user._id} creó una nueva tarea: ${task._id}`);
     } catch (error) {
         next(error);
     }
@@ -123,25 +101,19 @@ export const updateTask = async (req: Request, res: Response, next: NextFunction
             return;
         }
 
-        // Buscar y actualizar la tarea
-        const task = await Task.findOneAndUpdate({ _id: req.params.id, user: req.user._id }, req.body, {
-            new: true,
-            runValidators: true,
-        });
+        const taskId = req.params.id;
+        const userId = req.user._id;
 
-        if (!task) {
-            next(new AppError("Tarea no encontrada", 404));
-            return;
-        }
+        // Delegar al servicio
+        const task = await taskService.updateTask(taskId, userId, req.body);
 
+        // Responder con la tarea actualizada
         res.status(200).json({
             status: "success",
             data: {
                 task,
             },
         });
-
-        logger.info(`Usuario ${req.user._id} actualizó la tarea: ${task._id}`);
     } catch (error) {
         next(error);
     }
@@ -152,23 +124,17 @@ export const updateTask = async (req: Request, res: Response, next: NextFunction
 // @access  Private
 export const deleteTask = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Buscar y eliminar la tarea
-        const task = await Task.findOneAndDelete({
-            _id: req.params.id,
-            user: req.user._id,
-        });
+        const taskId = req.params.id;
+        const userId = req.user._id;
 
-        if (!task) {
-            next(new AppError("Tarea no encontrada", 404));
-            return;
-        }
+        // Delegar al servicio
+        await taskService.deleteTask(taskId, userId);
 
+        // Responder con éxito
         res.status(200).json({
             status: "success",
             data: null,
         });
-
-        logger.info(`Usuario ${req.user._id} eliminó la tarea: ${req.params.id}`);
     } catch (error) {
         next(error);
     }

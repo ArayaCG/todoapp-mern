@@ -485,3 +485,334 @@
 {"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:20:12"}
 {"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:20:12"}
 {"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:20:12"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:01:43"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:01:44"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m67ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:01:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m116ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:01:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:01:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m115ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:01:56"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:01:56"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m72ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m129ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:02:11"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:52"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:52"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:02:52"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:02:52"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:02:52"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:03:10"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 10:03:10"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:03:10"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:03:10"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:03:10"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m1055ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:03:11"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:03:11"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:08"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:08"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:06:08"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m117ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:08"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:06:08"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:09"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:09"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:06:09"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:06:09"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:06:09"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m460ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:07:44"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m119ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:52"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:07:52"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:54"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:07:54"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6812ffa335ab7f470fd50a92\u001b[39m \u001b[32m200\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:56"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6812ffa335ab7f470fd50a92","service":"todo-api","timestamp":"2025-05-01 10:07:56"}
+{"level":"info","message":"\u001b[90mDELETE /api/tasks/6812ffa335ab7f470fd50a92\u001b[39m \u001b[32m200\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:07:59"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 eliminó la tarea: 6812ffa335ab7f470fd50a92","service":"todo-api","timestamp":"2025-05-01 10:07:59"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:22"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m56ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:22"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:24"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:25"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:09:25"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:25"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:09:25"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:27"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:09:27"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:09:30"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:09:30"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:36:10"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:36:11"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:36:21"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:36:21"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:36:53"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:36:54"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:37:04"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:37:04"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:37:44"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:37:44"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:37:56"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:37:57"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:40:31"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:40:32"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:40:38"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:40:39"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:40:44"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:40:45"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 10:40:49"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 10:40:50"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 10:46:34"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m120ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:34"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m103ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:46:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m103ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 10:46:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m102ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:35"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 creó una nueva tarea: 68137b42ce77746d6924d252","service":"todo-api","timestamp":"2025-05-01 10:46:42"}
+{"level":"info","message":"\u001b[90mPOST /api/tasks\u001b[39m \u001b[32m201\u001b[39m \u001b[90m120ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:42"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:46:46"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:46"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 68137b42ce77746d6924d252","service":"todo-api","timestamp":"2025-05-01 10:46:53"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/68137b42ce77746d6924d252\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:46:53"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 10:47:00"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:47:00"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 68137b42ce77746d6924d252","service":"todo-api","timestamp":"2025-05-01 10:47:02"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/68137b42ce77746d6924d252\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 10:47:02"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m101ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:05"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 68137b42ce77746d6924d252","service":"todo-api","timestamp":"2025-05-01 11:27:10"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/68137b42ce77746d6924d252\u001b[39m \u001b[32m200\u001b[39m \u001b[90m118ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:10"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 11:27:10"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:10"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 11:27:11"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m114ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:11"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 11:27:11"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m129ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:27:11"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:44"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:45"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m121ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:46"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:49"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:50"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m127ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m133ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m137ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:51"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:52"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m646ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:52"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:52"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m660ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:52"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:54"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:54"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m115ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:54"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:54"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m117ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:54"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m117ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:55"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:58"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:58"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:58"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:58"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m119ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:58"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:43:59"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:02"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m119ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:44:03"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 11:53:00"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 11:53:01"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 11:53:12"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m122ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:12"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:53:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m113ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 11:53:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:13"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 creó una nueva tarea: 68138ae1bbf64e442f56dd6b","service":"todo-api","timestamp":"2025-05-01 11:53:21"}
+{"level":"info","message":"\u001b[90mPOST /api/tasks\u001b[39m \u001b[32m201\u001b[39m \u001b[90m119ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:21"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 68138ae1bbf64e442f56dd6b","service":"todo-api","timestamp":"2025-05-01 11:53:23"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/68138ae1bbf64e442f56dd6b\u001b[39m \u001b[32m200\u001b[39m \u001b[90m115ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 11:53:23"}
