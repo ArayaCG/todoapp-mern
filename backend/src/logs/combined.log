@@ -1,0 +1,487 @@
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:32:52"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:32:54"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:32:55"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m7ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:32:55"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:33:23"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:33:24"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:33:25"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m11ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:33:25"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:33:29"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:33:29"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:33:36"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:33:37"}
+{"level":"error","message":"POST /api/auth/register - User validation failed: nombre: Por favor, agrega un nombre","service":"todo-api","timestamp":"2025-04-30 21:33:46"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m69ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:33:46"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:33:53"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m6ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:33:53"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:34:37"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:34:37"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:34:51"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:34:52"}
+{"level":"error","message":"POST /api/auth/register - El nombre es requerido","service":"todo-api","timestamp":"2025-04-30 21:34:57"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m400\u001b[39m \u001b[90m7ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:34:57"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[32m201\u001b[39m \u001b[90m175ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:35:02"}
+{"level":"info","message":"Nuevo usuario registrado: ejemplo@correo.com","service":"todo-api","timestamp":"2025-04-30 21:35:02"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 21:35:26"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:35:26"}
+{"level":"error","message":"POST /api/auth/login - Credenciales inválidas","service":"todo-api","timestamp":"2025-04-30 21:36:01"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m56ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:36:01"}
+{"level":"error","message":"POST /api/auth/login - Credenciales inválidas","service":"todo-api","timestamp":"2025-04-30 21:36:05"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m52ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:36:05"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:36:19"}
+{"level":"info","message":"Usuario inició sesión: ejemplo@correo.com","service":"todo-api","timestamp":"2025-04-30 21:36:19"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 21:36:30"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:36:30"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-04-30 21:36:49"}
+{"level":"error","message":"GET /api/auth/me - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-04-30 21:36:49"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:36:49"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 21:37:11"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:40:14"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:40:14"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:40:34"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:40:34"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:44:34"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:44:35"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:45:32"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:45:32"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:45:36"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:45:38"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:45:43"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:45:44"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:45:48"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:45:48"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:03"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:46:03"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:17"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:20"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:46:20"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:43"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:46:43"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:48"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:46:49"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 21:46:59"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 21:47:00"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-04-30 22:13:13"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-04-30 22:13:14"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:14:28"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:14:28"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:14:42"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m0ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:14:42"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:14:49"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:14:49"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:15:06"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:15:06"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:15:24"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:15:24"}
+{"level":"warn","message":"Intento de acceso sin API keys","service":"todo-api","timestamp":"2025-04-30 22:15:29"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-04-30 22:15:29"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 00:07:03"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 00:07:04"}
+{"level":"warn","message":"Intento de acceso con API keys inválidas: your_client_id","service":"todo-api","timestamp":"2025-05-01 00:07:26"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:07:26"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[32m201\u001b[39m \u001b[90m191ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"info","message":"Nuevo usuario registrado: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m4ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m4ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:33"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m4ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:08:40"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m110ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:17"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:12:36"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:17:06"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 00:18:45"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-01.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 00:18:46"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m120ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m6ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:19:11"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/register\u001b[39m \u001b[32m201\u001b[39m \u001b[90m177ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"info","message":"Nuevo usuario registrado: arayag64@gmail.com","service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:22:47"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:32:34"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:32:34"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:32:36"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:32:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m4ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:32:36"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:32:38"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:32:38"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:32:38"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m4ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:35:53"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:36:05"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:36:05"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:36:05"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:36:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:36:05"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:36:06"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:36:06"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:36:06"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 00:41:54"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 00:41:55"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m119ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m5ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:44:07"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:20"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:51:20"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:21"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:29"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:51:29"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m3ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:30"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:40"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:51:40"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:41"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:49"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:51:49"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:51:51"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:04"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:52:04"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:05"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:13"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:52:13"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:14"}
+{"level":"error","message":"POST /api/auth/login - Credenciales inválidas","service":"todo-api","timestamp":"2025-05-01 00:52:29"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[33m401\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:29"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:37"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 00:52:37"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m1ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"warn","message":"Intento de acceso sin token de autenticación","service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"error","message":"GET /api/tasks - No estás autenticado. Por favor, inicia sesión","service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[33m401\u001b[39m \u001b[90m2ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 00:52:38"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 01:23:43"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 01:23:44"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 01:31:02"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-02.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 01:31:02"}
+{"level":"info","message":"Servidor iniciado en el puerto 5000 en modo development","service":"todo-api","timestamp":"2025-05-01 01:43:18"}
+{"level":"info","message":"MongoDB conectado: ac-04bqifs-shard-00-00.n7tv9jx.mongodb.net","service":"todo-api","timestamp":"2025-05-01 01:43:19"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m118ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m59ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:50:48"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m60ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:53:24"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:53:24"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:53:24"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:53:24"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:53:24"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:56:08"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:56:08"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:56:08"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:56:08"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:56:08"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:58:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:58:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:58:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m130ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:58:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:58:55"}
+{"level":"info","message":"\u001b[90mPOST /api/tasks\u001b[39m \u001b[32m201\u001b[39m \u001b[90m126ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:15"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 creó una nueva tarea: 6812ffa335ab7f470fd50a92","service":"todo-api","timestamp":"2025-05-01 01:59:15"}
+{"level":"error","message":"PUT /api/tasks/undefined - Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Task\"","service":"todo-api","timestamp":"2025-05-01 01:59:18"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/undefined\u001b[39m \u001b[33m404\u001b[39m \u001b[90m59ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:18"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m56ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:37"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:38"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:59:38"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:38"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 01:59:38"}
+{"level":"error","message":"PUT /api/tasks/undefined - Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Task\"","service":"todo-api","timestamp":"2025-05-01 01:59:50"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/undefined\u001b[39m \u001b[33m404\u001b[39m \u001b[90m56ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:50"}
+{"level":"error","message":"PUT /api/tasks/undefined - Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Task\"","service":"todo-api","timestamp":"2025-05-01 01:59:51"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/undefined\u001b[39m \u001b[33m404\u001b[39m \u001b[90m57ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 01:59:51"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m51ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m104ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m538ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:05"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m552ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:06"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:06"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m98ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:02:13"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:04"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:04"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:04"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:04"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:04"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:06"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:06"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:06"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:06"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:06"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:04:36"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m104ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m108ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:36"}
+{"level":"info","message":"\u001b[90mPOST /api/auth/login\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"info","message":"Usuario inició sesión: hola@hola.com","service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:05:55"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6812ffa335ab7f470fd50a92\u001b[39m \u001b[32m200\u001b[39m \u001b[90m118ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:05:59"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6812ffa335ab7f470fd50a92","service":"todo-api","timestamp":"2025-05-01 02:05:59"}
+{"level":"info","message":"\u001b[90mPOST /api/tasks\u001b[39m \u001b[32m201\u001b[39m \u001b[90m112ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:06:21"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 creó una nueva tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 02:06:21"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:12"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:12"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:12"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:12"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:12"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m100ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:13"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m52ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:50"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m58ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:50"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m50ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:12:53"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m100ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:14"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m51ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:19"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m57ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:19"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m51ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m98ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:23"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m101ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m110ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m111ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:13:35"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m120ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m125ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m122ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:15"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m50ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m57ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:21"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m99ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:14:39"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m98ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:16:34"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m51ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m98ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:17:13"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m110ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m109ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:26"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:30"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m54ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m104ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m104ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:18:47"}
+{"level":"info","message":"\u001b[90mPUT /api/tasks/6813014d35ab7f470fd50ad7\u001b[39m \u001b[32m200\u001b[39m \u001b[90m118ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:37"}
+{"level":"info","message":"Usuario 6812e5b067069f9cf17aac83 actualizó la tarea: 6813014d35ab7f470fd50ad7","service":"todo-api","timestamp":"2025-05-01 02:19:37"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[32m200\u001b[39m \u001b[90m53ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m105ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[32m200\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:19:55"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m67ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:19:59"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:19:59"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m107ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:20:00"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:20:00"}
+{"level":"info","message":"\u001b[90mGET /api/auth/me\u001b[39m \u001b[36m304\u001b[39m \u001b[90m55ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:20:12"}
+{"level":"info","message":"\u001b[90mGET /api/tasks\u001b[39m \u001b[36m304\u001b[39m \u001b[90m106ms\u001b[39m","meta":{},"service":"todo-api","timestamp":"2025-05-01 02:20:12"}
+{"level":"debug","message":"Usuario 6812e5b067069f9cf17aac83 obtuvo sus tareas","service":"todo-api","timestamp":"2025-05-01 02:20:12"}
