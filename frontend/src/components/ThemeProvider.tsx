@@ -28,25 +28,20 @@ export function ThemeProvider({
 }: ThemeProviderProps) {
     const [theme, setTheme] = useState<Theme>(() => (localStorage.getItem(storageKey) as Theme) || defaultTheme);
 
-    // Función para aplicar el tema al documento
     const applyTheme = (newTheme: Theme) => {
         const root = window.document.documentElement;
         const isDark =
             newTheme === "dark" || (newTheme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
 
-        // Primero eliminar ambas clases
         root.classList.remove("light", "dark");
 
-        // Luego agregar la clase correcta
         root.classList.add(isDark ? "dark" : "light");
     };
 
-    // Aplicar el tema inicialmente
     useEffect(() => {
         applyTheme(theme);
     }, [theme]);
 
-    // Escuchar cambios en las preferencias del sistema
     useEffect(() => {
         const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 

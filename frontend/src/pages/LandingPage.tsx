@@ -8,7 +8,6 @@ const LandingPage = () => {
         <div className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
             <header className="border-b border-gray-200 dark:border-gray-800 relative">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20 py-4 flex items-center justify-between">
-                    {/* Mobile Header */}
                     <div className="sm:hidden flex justify-between items-center w-full">
                         <div className="flex items-center">
                             <List className="h-6 w-6 text-blue-600 dark:text-blue-400" />
@@ -19,7 +18,6 @@ const LandingPage = () => {
                         </div>
                     </div>
 
-                    {/* Desktop Header */}
                     <div className="hidden sm:flex items-center justify-between w-full">
                         <div className="flex items-center">
                             <List className="h-8 w-8 text-blue-600 dark:text-blue-400" />
@@ -130,7 +128,6 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* CTA Section */}
             <section className="py-12 md:py-20">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -154,7 +151,6 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* Footer */}
             <footer className="py-8 border-t border-gray-200 dark:border-gray-800">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row justify-between items-center">

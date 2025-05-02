@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import logger from "../utils/logger";
 
-// Clase para errores de la API
 export class AppError extends Error {
     statusCode: number;
     status: string;
@@ -17,15 +16,12 @@ export class AppError extends Error {
     }
 }
 
-// Middleware para manejar errores
 export const errorHandler = (err: Error | AppError, req: Request, res: Response, next: NextFunction): void => {
     let error = { ...err };
     error.message = err.message;
 
-    // Log del error
     logger.error(`${req.method} ${req.path} - ${err.message}`);
 
-    // Errores específicos de Mongoose
     if ((err as any).name === "CastError") {
         const message = "Recurso no encontrado";
         error = new AppError(message, 404);
@@ -43,7 +39,6 @@ export const errorHandler = (err: Error | AppError, req: Request, res: Response,
         error = new AppError(message, 400);
     }
 
-    // Responder con el error
     res.status((error as AppError).statusCode || 500).json({
         status: (error as AppError).status || "error",
         message: (error as AppError).message || "Error interno del servidor",

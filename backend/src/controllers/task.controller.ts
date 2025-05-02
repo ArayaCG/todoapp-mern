@@ -3,7 +3,6 @@ import { validationResult } from "express-validator";
 import { AppError } from "../middlewares/error.middleware";
 import { TaskService } from "../services/task.service";
 
-// Instanciar el servicio de tareas
 const taskService = new TaskService();
 
 // @desc    Obtener todas las tareas del usuario
@@ -11,20 +10,16 @@ const taskService = new TaskService();
 // @access  Private
 export const getTasks = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Obtener parámetros de consulta
         const { completed, priority, sort } = req.query;
 
-        // Obtener el ID del usuario desde el middleware de autenticación
         const userId = req.user._id;
 
-        // Delegar al servicio
         const tasks = await taskService.getTasks(userId, {
             completed: completed as any,
             priority: priority as string,
             sort: sort as string,
         });
 
-        // Responder con las tareas
         res.status(200).json({
             status: "success",
             count: tasks.length,
@@ -45,10 +40,8 @@ export const getTask = async (req: Request, res: Response, next: NextFunction): 
         const taskId = req.params.id;
         const userId = req.user._id;
 
-        // Delegar al servicio
         const task = await taskService.getTaskById(taskId, userId);
 
-        // Responder con la tarea
         res.status(200).json({
             status: "success",
             data: {
@@ -65,7 +58,6 @@ export const getTask = async (req: Request, res: Response, next: NextFunction): 
 // @access  Private
 export const createTask = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Validar los datos de entrada
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             next(new AppError(errors.array()[0].msg, 400));
@@ -74,10 +66,8 @@ export const createTask = async (req: Request, res: Response, next: NextFunction
 
         const userId = req.user._id;
 
-        // Delegar al servicio
         const task = await taskService.createTask(req.body, userId);
 
-        // Responder con la tarea creada
         res.status(201).json({
             status: "success",
             data: {
@@ -94,7 +84,6 @@ export const createTask = async (req: Request, res: Response, next: NextFunction
 // @access  Private
 export const updateTask = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Validar los datos de entrada
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             next(new AppError(errors.array()[0].msg, 400));
@@ -104,10 +93,8 @@ export const updateTask = async (req: Request, res: Response, next: NextFunction
         const taskId = req.params.id;
         const userId = req.user._id;
 
-        // Delegar al servicio
         const task = await taskService.updateTask(taskId, userId, req.body);
 
-        // Responder con la tarea actualizada
         res.status(200).json({
             status: "success",
             data: {
@@ -127,10 +114,8 @@ export const deleteTask = async (req: Request, res: Response, next: NextFunction
         const taskId = req.params.id;
         const userId = req.user._id;
 
-        // Delegar al servicio
         await taskService.deleteTask(taskId, userId);
 
-        // Responder con éxito
         res.status(200).json({
             status: "success",
             data: null,

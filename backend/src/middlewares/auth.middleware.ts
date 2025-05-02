@@ -4,7 +4,6 @@ import { AppError } from "./error.middleware";
 import User from "../models/user.model";
 import logger from "../utils/logger";
 
-// Extender la interfaz Request para incluir la propiedad user
 declare global {
     namespace Express {
         interface Request {
@@ -17,22 +16,18 @@ export const protect = async (req: Request, res: Response, next: NextFunction): 
     try {
         let token;
 
-        // Verificar si existe el token en el header de autorización
         if (req.headers.authorization && req.headers.authorization.startsWith("Bearer")) {
             token = req.headers.authorization.split(" ")[1];
         }
 
-        // Verificar si el token existe
         if (!token) {
             logger.warn("Intento de acceso sin token de autenticación");
             next(new AppError("No estás autenticado. Por favor, inicia sesión", 401));
             return;
         }
 
-        // Verificar el token
         const decoded = jwt.verify(token, process.env.JWT_SECRET || "secret");
 
-        // Verificar si el usuario existe
         const user = await User.findById((decoded as any).id);
 
         if (!user) {
@@ -41,7 +36,6 @@ export const protect = async (req: Request, res: Response, next: NextFunction): 
             return;
         }
 
-        // Añadir el usuario a la request
         req.user = user;
         next();
     } catch (error) {

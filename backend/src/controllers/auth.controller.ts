@@ -3,7 +3,6 @@ import { validationResult } from "express-validator";
 import { AppError } from "../middlewares/error.middleware";
 import { AuthService } from "../services/auth.service";
 
-// Instanciar el servicio de autenticación
 const authService = new AuthService();
 
 // @desc    Registrar un nuevo usuario
@@ -11,7 +10,6 @@ const authService = new AuthService();
 // @access  Public
 export const register = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Validar los datos de entrada
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             next(new AppError(errors.array()[0].msg, 400));
@@ -20,10 +18,8 @@ export const register = async (req: Request, res: Response, next: NextFunction):
 
         const { name, email, password } = req.body;
 
-        // Delegar al servicio
         const result = await authService.register({ name, email, password });
 
-        // Enviar respuesta
         res.status(201).json({
             status: "success",
             data: result,
@@ -38,7 +34,6 @@ export const register = async (req: Request, res: Response, next: NextFunction):
 // @access  Public
 export const login = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        // Validar los datos de entrada
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             next(new AppError(errors.array()[0].msg, 400));
@@ -47,10 +42,8 @@ export const login = async (req: Request, res: Response, next: NextFunction): Pr
 
         const { email, password } = req.body;
 
-        // Delegar al servicio
         const result = await authService.login(email, password);
 
-        // Enviar respuesta
         res.status(200).json({
             status: "success",
             data: result,
@@ -67,10 +60,8 @@ export const getMe = async (req: Request, res: Response, next: NextFunction): Pr
     try {
         const userId = req.user._id;
 
-        // Usar el servicio para obtener el perfil
         const userProfile = await authService.getProfile(userId);
 
-        // Enviar respuesta
         res.status(200).json({
             status: "success",
             data: {

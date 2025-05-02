@@ -1,6 +1,5 @@
 import { body } from "express-validator";
 
-// Validadores para autenticación
 export const registerValidator = [
     body("name")
         .notEmpty()
@@ -20,7 +19,6 @@ export const loginValidator = [
     body("password").notEmpty().withMessage("La contraseña es requerida"),
 ];
 
-// Validadores para tareas
 export const taskValidator = [
     body("title")
         .notEmpty()

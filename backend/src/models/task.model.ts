@@ -1,6 +1,5 @@
 import mongoose, { Schema, Document } from "mongoose";
 
-// Interfaz para el documento de tarea
 export interface ITask extends Document {
     title: string;
     description?: string;
@@ -12,7 +11,6 @@ export interface ITask extends Document {
     updatedAt: Date;
 }
 
-// Schema de tarea
 const TaskSchema: Schema = new Schema(
     {
         title: {
@@ -49,7 +47,6 @@ const TaskSchema: Schema = new Schema(
     }
 );
 
-// Índices para mejorar las consultas
 TaskSchema.index({ user: 1, createdAt: -1 });
 TaskSchema.index({ user: 1, completed: 1 });
 

@@ -63,8 +63,8 @@ Este es el frontend para la aplicación de tareas, desarrollado con React y util
 Si aún no lo has hecho, clona el repositorio completo:
 
 ```bash
-git clone [https://github.com/tu-usuario/todo-app.git](https://github.com/tu-usuario/todo-app.git)
-cd todo-app/frontend
+git clone [https://github.com/ArayaCG/todoapp-mern](https://github.com/ArayaCG/todoapp-mern)
+cd todoapp-mern/frontend
 ```
 
 2. **Instalar dependencias**

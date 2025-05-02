@@ -45,8 +45,8 @@ Este es el backend para la aplicación de tareas, desarrollado con el stack MERN
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/todo-app.git
-cd todo-app/backend
+git clone [https://github.com/ArayaCG/todoapp-mern](https://github.com/ArayaCG/todoapp-mern)
+cd todoapp-mern/backend
 ```
 
 2. **Instalar dependencias**
@@ -114,4 +114,3 @@ npm start
 -   API Keys requeridas para acceder a la API desde el frontend
 -   Rate limiting para evitar ataques de fuerza bruta
 -   Validación de entradas para prevenir inyecciones
-

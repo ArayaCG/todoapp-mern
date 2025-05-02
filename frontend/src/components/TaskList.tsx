@@ -36,7 +36,6 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, onEdit }) => {
         setDeleteModalOpen(false);
     };
 
-    // Función para formatear la fecha
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
         return new Intl.DateTimeFormat("es-ES", {

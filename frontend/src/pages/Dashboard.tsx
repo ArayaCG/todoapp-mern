@@ -43,7 +43,6 @@ const Dashboard = () => {
         setSortDirection(sortDirection === "desc" ? "asc" : "desc");
     };
 
-    // Filtrar y ordenar tareas
     const filteredTasks = tasks.filter((task) => {
         if (activeFilter === "all") return true;
         if (activeFilter === "pending") return !task.completed;
@@ -51,7 +50,6 @@ const Dashboard = () => {
         return true;
     });
 
-    // Ordenar por fecha
     const sortedTasks = [...filteredTasks].sort((a, b) => {
         const dateA = new Date(a.createdAt).getTime();
         const dateB = new Date(b.createdAt).getTime();
@@ -99,7 +97,6 @@ const Dashboard = () => {
                                     </h2>
 
                                     <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2 w-full sm:w-auto">
-                                        {/* Filtros */}
                                         <div className="flex rounded-md shadow-sm">
                                             <button
                                                 onClick={() => setActiveFilter("all")}

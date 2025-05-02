@@ -20,7 +20,6 @@ const Login = () => {
     const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false);
 
-    // Verificar si el usuario ya está autenticado
     useEffect(() => {
         if (isAuthenticated && hasHydrated) {
             navigate("/dashboard");

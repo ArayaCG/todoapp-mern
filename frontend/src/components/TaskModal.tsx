@@ -41,7 +41,6 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
         setIsSubmitting(true);
 
         try {
-            // Verificar que el ID existe
             if (!task.id) {
                 throw new Error("ID de tarea no válido");
             }

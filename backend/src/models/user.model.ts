@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
-// Interfaz para el documento de usuario
 export interface IUser extends Document {
     name: string;
     email: string;
@@ -13,7 +12,6 @@ export interface IUser extends Document {
     generateAuthToken(): string;
 }
 
-// Schema de usuario
 const UserSchema: Schema = new Schema(
     {
         name: {
@@ -32,7 +30,7 @@ const UserSchema: Schema = new Schema(
             type: String,
             required: [true, "Por favor, agrega una contraseña"],
             minlength: [6, "La contraseña debe tener al menos 6 caracteres"],
-            select: false, // No incluir password en las consultas por defecto
+            select: false,
         },
     },
     {
@@ -40,7 +38,6 @@ const UserSchema: Schema = new Schema(
     }
 );
 
-// Middleware para hashear la contraseña antes de guardar
 UserSchema.pre<IUser>("save", async function (next) {
     if (!this.isModified("password")) {
         return next();
@@ -55,19 +52,15 @@ UserSchema.pre<IUser>("save", async function (next) {
     }
 });
 
-// Método para comparar contraseñas
 UserSchema.methods.comparePassword = async function (candidatePassword: string): Promise<boolean> {
     return await bcrypt.compare(candidatePassword, this.password);
 };
 
-// Método para generar token JWT
 UserSchema.methods.generateAuthToken = function (): string {
     const secret = process.env.JWT_SECRET || "secret";
-    // Forzamos los tipos para que coincidan con las expectativas de la biblioteca
     const payload = { id: this._id.toString() };
     const options = { expiresIn: process.env.JWT_EXPIRES_IN || "7d" };
-
-    // @ts-ignore - Ignoramos los errores de tipo ya que sabemos que estos parámetros son correctos
+    // @ts-ignore
     return jwt.sign(payload, secret, options);
 };
 
