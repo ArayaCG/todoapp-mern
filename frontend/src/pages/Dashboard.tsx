@@ -21,11 +21,13 @@ const Dashboard = () => {
     const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
 
     useEffect(() => {
-        fetchTasks().catch((error) => {
-            toast.error("Error al cargar las tareas");
-            console.error(error);
-        });
-    }, [fetchTasks]);
+        if (tasks.length === 0) {
+            fetchTasks().catch((error) => {
+                toast.error("Error al cargar las tareas");
+                console.error(error);
+            });
+        }
+    }, [fetchTasks, tasks.length]);
 
     const handleEditTask = (task: Task) => {
         setCurrentTask(task);

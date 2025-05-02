@@ -26,6 +26,9 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     error: null,
 
     fetchTasks: async () => {
+        const { tasks } = get();
+        if (tasks.length > 0) return;
+
         set({ isLoading: true, error: null });
         try {
             const tasks = await getTasks();

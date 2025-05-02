@@ -1,5 +1,5 @@
 import type React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/authStore";
 import { toast } from "react-hot-toast";
@@ -11,21 +11,46 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [fieldsInitialized, setFieldsInitialized] = useState(false);
+
+    const emailRef = useRef<HTMLInputElement>(null);
+    const passwordRef = useRef<HTMLInputElement>(null);
 
     const { login, isAuthenticated, hasHydrated } = useAuthStore();
     const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false);
 
+    // Verificar si el usuario ya está autenticado
     useEffect(() => {
         if (isAuthenticated && hasHydrated) {
             navigate("/dashboard");
         }
+        if (emailRef.current && emailRef.current.value) {
+            setEmail(emailRef.current.value);
+        }
+    
+        if (passwordRef.current && passwordRef.current.value) {
+            setPassword(passwordRef.current.value);
+        }
+    
+        setFieldsInitialized(true);
     }, [isAuthenticated, hasHydrated, navigate]);
+
+    const updateEmail = (value: string) => {
+        setEmail(value);
+    };
+
+    const updatePassword = (value: string) => {
+        setPassword(value);
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (!email || !password) {
+        const currentEmail = emailRef.current?.value || email;
+        const currentPassword = passwordRef.current?.value || password;
+
+        if (!currentEmail || !currentPassword) {
             toast.error("Por favor completa todos los campos");
             return;
         }
@@ -33,7 +58,7 @@ const Login = () => {
         setIsSubmitting(true);
 
         try {
-            await login(email, password);
+            await login(currentEmail, currentPassword);
             toast.success("¡Inicio de sesión exitoso!");
             navigate("/dashboard");
         } catch (error) {
@@ -58,6 +83,11 @@ const Login = () => {
                     <h2 className="mt-6 text-center text-3xl font-extrabold text-[hsl(var(--foreground))]">
                         Iniciar sesión
                     </h2>
+                    {!fieldsInitialized && (
+                        <p className="mt-2 text-center text-sm text-[hsl(var(--muted-foreground))]">
+                            Cargando datos...
+                        </p>
+                    )}
                 </div>
 
                 <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -75,7 +105,9 @@ const Login = () => {
                                 className="input rounded-b-md pr-10"
                                 placeholder="Email"
                                 value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                onChange={(e) => updateEmail(e.target.value)}
+                                onInput={(e) => updateEmail(e.currentTarget.value)}
+                                ref={emailRef}
                             />
                         </div>
                         <div className="relative">
@@ -91,7 +123,9 @@ const Login = () => {
                                 className="input rounded-b-md pr-10"
                                 placeholder="Contraseña"
                                 value={password}
-                                onChange={(e) => setPassword(e.target.value)}
+                                onChange={(e) => updatePassword(e.target.value)}
+                                onInput={(e) => updatePassword(e.currentTarget.value)}
+                                ref={passwordRef}
                             />
 
                             <button
