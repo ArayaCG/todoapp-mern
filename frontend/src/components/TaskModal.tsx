@@ -91,8 +91,9 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
                                 <div className="sm:flex sm:items-start">
                                     <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
                                         <h3 className="text-lg leading-6 font-medium text-[hsl(var(--foreground))] mb-4">
-                                            Editar Tarea {task?.id ? `(ID: ${task.id})` : ""}
+                                            Editar Tarea{task?.title ? `: ${task.title}` : ""}
                                         </h3>
+
                                         <form onSubmit={handleSubmit} className="space-y-4">
                                             <div>
                                                 <label

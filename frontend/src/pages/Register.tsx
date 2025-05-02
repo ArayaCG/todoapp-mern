@@ -5,6 +5,7 @@ import { useAuthStore } from "../store/authStore";
 import { toast } from "react-hot-toast";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "../components/ThemeToggle";
+import { Eye, EyeOff } from "lucide-react";
 
 const Register = () => {
     const [name, setName] = useState("");
@@ -12,6 +13,8 @@ const Register = () => {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [showPassword, setShowPassword] = useState(false);
+    const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
     const { register } = useAuthStore();
     const navigate = useNavigate();
@@ -93,37 +96,51 @@ const Register = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
-                        <div>
+                        <div className="relative">
                             <label htmlFor="password" className="sr-only">
                                 Contraseña
                             </label>
                             <input
                                 id="password"
                                 name="password"
-                                type="password"
+                                type={showPassword ? "text" : "password"}
                                 autoComplete="new-password"
                                 required
-                                className="input"
+                                className="input pr-10"
                                 placeholder="Contraseña"
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                             />
+                            <button
+                                type="button"
+                                onClick={() => setShowPassword((prev) => !prev)}
+                                className="absolute inset-y-0 right-2 flex items-center text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                            >
+                                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+                            </button>
                         </div>
-                        <div>
+                        <div className="relative">
                             <label htmlFor="confirmPassword" className="sr-only">
                                 Confirmar contraseña
                             </label>
                             <input
                                 id="confirmPassword"
                                 name="confirmPassword"
-                                type="password"
+                                type={showConfirmPassword ? "text" : "password"}
                                 autoComplete="new-password"
                                 required
-                                className="input rounded-b-md"
+                                className="input rounded-b-md pr-10"
                                 placeholder="Confirmar contraseña"
                                 value={confirmPassword}
                                 onChange={(e) => setConfirmPassword(e.target.value)}
                             />
+                            <button
+                                type="button"
+                                onClick={() => setShowConfirmPassword((prev) => !prev)}
+                                className="absolute inset-y-0 right-2 flex items-center text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] transition-colors"
+                            >
+                                {showConfirmPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+                            </button>
                         </div>
                     </div>
 
