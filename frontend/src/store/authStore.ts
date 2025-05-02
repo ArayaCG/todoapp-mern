@@ -36,22 +36,13 @@ export const useAuthStore = create<AuthState>()(
                 set({ isLoading: true, error: null });
                 try {
                     const { token, user } = await loginUser(email, password);
-                    console.log("Login exitoso, guardando datos:", { token, user });
                     set({
                         token,
                         user,
                         isAuthenticated: true,
                         isLoading: false,
                     });
-                    // Verificar inmediatamente si los datos se han establecido correctamente
-                    const state = get();
-                    console.log("Estado después de login:", {
-                        token: state.token,
-                        user: state.user,
-                        isAuthenticated: state.isAuthenticated,
-                    });
                 } catch (error) {
-                    console.error("Error durante login:", error);
                     set({
                         error: error instanceof Error ? error.message : "Error al iniciar sesión",
                         isLoading: false,
@@ -80,7 +71,6 @@ export const useAuthStore = create<AuthState>()(
             },
 
             logout: () => {
-                console.log("Cerrando sesión...");
                 set({
                     user: null,
                     token: null,
@@ -91,7 +81,6 @@ export const useAuthStore = create<AuthState>()(
             fetchCurrentUser: async () => {
                 const { token } = get();
                 if (!token) {
-                    console.log("No hay token, no se puede obtener usuario actual");
                     return;
                 }
 
@@ -100,7 +89,6 @@ export const useAuthStore = create<AuthState>()(
                     const user = await getCurrentUser();
                     set({ user, isLoading: false });
                 } catch (error) {
-                    console.error("Error al obtener usuario actual:", error);
                     set({
                         error: error instanceof Error ? error.message : "Error al obtener usuario",
                         isLoading: false,
@@ -120,32 +108,20 @@ export const useAuthStore = create<AuthState>()(
                 user: state.user,
                 isAuthenticated: state.isAuthenticated,
             }),
-            // Corrección importante aquí - corregimos el onRehydrateStorage
-            onRehydrateStorage: () => (state) => {
-                console.log("🔁 Estado rehidratado:", {
-                    token: state?.token ? "Token presente" : "No hay token",
-                    user: state?.user ? "Usuario presente" : "No hay usuario",
-                    isAuthenticated: state?.isAuthenticated,
-                });
-
-                // Corrección clave: Llamar a setHasHydrated correctamente
+            onRehydrateStorage: () => () => {
                 useAuthStore.getState().setHasHydrated(true);
             },
         }
     )
 );
 
-// Verificar el estado de hidratación manualmente como respaldo
-// Esta es una medida adicional para asegurar que hasHydrated se establezca
 const checkHydration = () => {
     const state = useAuthStore.getState();
     if (!state.hasHydrated) {
-        console.log("Activando hidratación manualmente después de 500ms");
         setTimeout(() => {
             useAuthStore.getState().setHasHydrated(true);
         }, 500);
     }
 };
 
-// Llamar a checkHydration después de un breve retraso para permitir la rehidratación normal
 setTimeout(checkHydration, 1000);

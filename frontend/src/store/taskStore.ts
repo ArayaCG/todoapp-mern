@@ -29,7 +29,6 @@ export const useTaskStore = create<TaskState>((set, get) => ({
         set({ isLoading: true, error: null });
         try {
             const tasks = await getTasks();
-            console.log("Tareas obtenidas:", tasks);
             set({ tasks, isLoading: false });
         } catch (error) {
             set({
@@ -59,19 +58,14 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     updateTaskStatus: async (id, completed) => {
         set({ isLoading: true, error: null });
         try {
-            // Verificar que el ID no es undefined
             if (!id) {
                 throw new Error("ID de tarea no válido");
             }
-
-            console.log(`Actualizando estado de tarea ${id} a ${completed}`);
 
             const task = get().tasks.find((t) => t.id === id);
             if (!task) {
                 throw new Error("Tarea no encontrada");
             }
-
-            console.log("Tarea encontrada:", task);
 
             const updatedTask = await updateTask(id, {
                 ...task,
@@ -83,7 +77,6 @@ export const useTaskStore = create<TaskState>((set, get) => ({
                 isLoading: false,
             }));
         } catch (error) {
-            console.error("Error al actualizar estado:", error);
             set({
                 error: error instanceof Error ? error.message : "Error al actualizar tarea",
                 isLoading: false,
@@ -95,19 +88,14 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     editTask: async (id, title, description) => {
         set({ isLoading: true, error: null });
         try {
-            // Verificar que el ID no es undefined
             if (!id) {
                 throw new Error("ID de tarea no válido");
             }
-
-            console.log(`Editando tarea ${id}`);
 
             const task = get().tasks.find((t) => t.id === id);
             if (!task) {
                 throw new Error("Tarea no encontrada");
             }
-
-            console.log("Tarea a editar:", task);
 
             const updatedTask = await updateTask(id, {
                 ...task,
@@ -120,7 +108,6 @@ export const useTaskStore = create<TaskState>((set, get) => ({
                 isLoading: false,
             }));
         } catch (error) {
-            console.error("Error al editar tarea:", error);
             set({
                 error: error instanceof Error ? error.message : "Error al editar tarea",
                 isLoading: false,
@@ -132,7 +119,6 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     removeTask: async (id) => {
         set({ isLoading: true, error: null });
         try {
-            // Verificar que el ID no es undefined
             if (!id) {
                 throw new Error("ID de tarea no válido");
             }

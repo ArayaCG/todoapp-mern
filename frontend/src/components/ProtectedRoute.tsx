@@ -12,11 +12,6 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
     const location = useLocation();
 
     useEffect(() => {
-        console.log("ProtectedRoute - Estado de autenticación:", {
-            isAuthenticated,
-            tokenExiste: !!token,
-            hasHydrated,
-        });
     }, [isAuthenticated, token, hasHydrated]);
 
     // Si el estado de persistencia aún no se ha cargado, mostrar cargando
@@ -26,7 +21,6 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
 
     // Si no está autenticado, redirigir al login
     if (!isAuthenticated || !token) {
-        console.log("Usuario no autenticado, redirigiendo a login");
         return <Navigate to="/login" state={{ from: location }} replace />;
     }
 

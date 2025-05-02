@@ -43,7 +43,10 @@ const TaskForm = () => {
             className="space-y-4"
         >
             <div>
-                <label htmlFor="title" className="block text-sm font-medium text-gray-700">
+                <label
+                    htmlFor="title"
+                    className="block text-sm font-medium text-[hsl(var(--foreground))] dark:text-[hsl(var(--foreground))]"
+                >
                     Título
                 </label>
                 <input
@@ -58,7 +61,10 @@ const TaskForm = () => {
             </div>
 
             <div>
-                <label htmlFor="description" className="block text-sm font-medium text-gray-700">
+                <label
+                    htmlFor="description"
+                    className="block text-sm font-medium text-[hsl(var(--foreground))] dark:text-[hsl(var(--foreground))]"
+                >
                     Descripción
                 </label>
                 <textarea

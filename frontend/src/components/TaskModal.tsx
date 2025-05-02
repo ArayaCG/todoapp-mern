@@ -20,7 +20,6 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
 
     useEffect(() => {
         if (task) {
-            console.log("Tarea recibida en el modal:", task);
             setTitle(task.title);
             setDescription(task.description);
         }
@@ -33,12 +32,6 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
             console.error("No hay tarea para editar");
             return;
         }
-
-        console.log("Intentando editar la tarea:", {
-            id: task.id,
-            title,
-            description,
-        });
 
         if (!title.trim()) {
             toast.error("El título es obligatorio");
@@ -71,45 +64,40 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
             {isOpen && (
                 <div className="fixed inset-0 z-50 overflow-y-auto">
                     <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
-                        {/* Capa de fondo oscuro - reducido z-index para no interferir con elementos del formulario */}
                         <div className="fixed inset-0 transition-opacity" aria-hidden="true" onClick={onClose}>
-                            <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
+                            <div className="absolute inset-0 bg-gray-500 opacity-75 dark:bg-[hsl(var(--background))] dark:opacity-80"></div>
                         </div>
-
                         <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">
                             &#8203;
                         </span>
-
                         <motion.div
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.95 }}
                             transition={{ duration: 0.3 }}
-                            className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full relative z-60"
+                            className="inline-block align-bottom bg-[hsl(var(--background))] rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full relative z-60"
                         >
                             <div className="absolute top-0 right-0 pt-4 pr-4">
                                 <button
                                     type="button"
-                                    className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none"
+                                    className="bg-[hsl(var(--background))] rounded-md text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] focus:outline-none"
                                     onClick={onClose}
                                 >
                                     <span className="sr-only">Cerrar</span>
                                     <X size={20} />
                                 </button>
                             </div>
-
-                            <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                            <div className="bg-[hsl(var(--background))] px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                                 <div className="sm:flex sm:items-start">
                                     <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
-                                        <h3 className="text-lg leading-6 font-medium text-gray-900 mb-4">
+                                        <h3 className="text-lg leading-6 font-medium text-[hsl(var(--foreground))] mb-4">
                                             Editar Tarea {task?.id ? `(ID: ${task.id})` : ""}
                                         </h3>
-
                                         <form onSubmit={handleSubmit} className="space-y-4">
                                             <div>
                                                 <label
                                                     htmlFor="edit-title"
-                                                    className="block text-sm font-medium text-gray-700"
+                                                    className="block text-sm font-medium text-[hsl(var(--foreground))]"
                                                 >
                                                     Título
                                                 </label>
@@ -127,7 +115,7 @@ const TaskModal: React.FC<TaskModalProps> = ({ task, isOpen, onClose }) => {
                                             <div>
                                                 <label
                                                     htmlFor="edit-description"
-                                                    className="block text-sm font-medium text-gray-700"
+                                                    className="block text-sm font-medium text-[hsl(var(--foreground))]"
                                                 >
                                                     Descripción
                                                 </label>

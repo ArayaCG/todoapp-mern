@@ -2,8 +2,6 @@ import axios from "axios";
 import api from "./api";
 import type { Task } from "../store/taskStore";
 
-// Función auxiliar para transformar tareas del backend al formato frontend
-// Definir la interfaz para la estructura de la tarea del backend
 interface BackendTask {
     _id: string;
     title: string;
@@ -14,7 +12,7 @@ interface BackendTask {
 
 const transformTaskFromBackend = (backendTask: BackendTask): Task => {
     return {
-        id: backendTask._id, // Mapear _id del backend a id del frontend
+        id: backendTask._id,
         title: backendTask.title,
         description: backendTask.description || "",
         completed: backendTask.completed || false,
@@ -25,11 +23,9 @@ const transformTaskFromBackend = (backendTask: BackendTask): Task => {
 export const getTasks = async (): Promise<Task[]> => {
     try {
         const response = await api.get("/tasks");
-        console.log("Respuesta de getTasks:", response.data);
 
         let tasksArray = [];
 
-        // Verificar la estructura de la respuesta
         if (response.data && response.data.data && response.data.data.tasks) {
             tasksArray = response.data.data.tasks;
         } else if (response.data && Array.isArray(response.data.data)) {
@@ -37,14 +33,11 @@ export const getTasks = async (): Promise<Task[]> => {
         } else if (Array.isArray(response.data)) {
             tasksArray = response.data;
         } else {
-            console.error("Formato de respuesta inesperado:", response.data);
-            return []; // Devolver array vacío en vez de fallar
+            return [];
         }
 
-        // Transformar cada tarea para asegurar mapeo correcto de _id a id
         return tasksArray.map(transformTaskFromBackend);
     } catch (error) {
-        console.error("Error en getTasks:", error);
         if (axios.isAxiosError(error) && error.response) {
             throw new Error(error.response.data.message || "Error al obtener tareas");
         }
@@ -58,7 +51,6 @@ export const getTask = async (id: string): Promise<Task> => {
 
         let taskData;
 
-        // Verificar la estructura de la respuesta
         if (response.data && response.data.data && response.data.data.task) {
             taskData = response.data.data.task;
         } else if (response.data && response.data.data) {
@@ -82,7 +74,6 @@ export const createTask = async (title: string, description: string): Promise<Ta
 
         let taskData;
 
-        // Verificar la estructura de la respuesta
         if (response.data && response.data.data && response.data.data.task) {
             taskData = response.data.data.task;
         } else if (response.data && response.data.data) {
@@ -102,21 +93,14 @@ export const createTask = async (title: string, description: string): Promise<Ta
 
 export const updateTask = async (id: string, taskData: Partial<Task>): Promise<Task> => {
     try {
-        // Asegurarse de que el id nunca sea undefined
         if (!id) {
             throw new Error("ID de tarea no válido");
         }
 
-        console.log("Actualizando tarea con ID:", id);
-        console.log("Datos para actualizar:", taskData);
-
-        // Convertir datos del frontend a formato de backend antes de enviar
         const backendTaskData = {
             ...taskData,
-            // Excluimos el id explícitamente en lugar de eliminarlo después
         };
 
-        // TypeScript seguro: crear un nuevo objeto sin la propiedad id
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { id: _, ...backendDataWithoutId } = backendTaskData;
 
@@ -124,7 +108,6 @@ export const updateTask = async (id: string, taskData: Partial<Task>): Promise<T
 
         let responseTaskData;
 
-        // Verificar la estructura de la respuesta
         if (response.data && response.data.data && response.data.data.task) {
             responseTaskData = response.data.data.task;
         } else if (response.data && response.data.data) {
@@ -135,7 +118,6 @@ export const updateTask = async (id: string, taskData: Partial<Task>): Promise<T
 
         return transformTaskFromBackend(responseTaskData);
     } catch (error) {
-        console.error("Error al actualizar tarea:", error);
         if (axios.isAxiosError(error) && error.response) {
             throw new Error(error.response.data.message || "Error al actualizar tarea");
         }
@@ -145,7 +127,6 @@ export const updateTask = async (id: string, taskData: Partial<Task>): Promise<T
 
 export const deleteTask = async (id: string): Promise<void> => {
     try {
-        // Asegurarse de que el id nunca sea undefined
         if (!id) {
             throw new Error("ID de tarea no válido");
         }
