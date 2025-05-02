@@ -42,7 +42,6 @@ const LandingPage = () => {
                 </div>
             </header>
 
-            {/* Hero Section */}
             <section className="py-12 md:py-20">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -70,7 +69,6 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* Features Section */}
             <section className="py-12 md:py-20 bg-[hsl(var(--background))]">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div

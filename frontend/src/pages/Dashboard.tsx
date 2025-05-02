@@ -131,7 +131,6 @@ const Dashboard = () => {
                                             </button>
                                         </div>
 
-                                        {/* Botón de ordenación */}
                                         <button
                                             onClick={toggleSortDirection}
                                             className="flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-md border border-gray-300 bg-[hsl(var(--background))] text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] dark:border-gray-600 dark:hover:bg-[hsl(var(--muted))]"
@@ -176,7 +175,6 @@ const Dashboard = () => {
                         </div>
 
                         <div>
-                            {/* Nueva Tarea - Corregido el fondo para usar variable CSS */}
                             <div className="bg-[hsl(var(--background))] shadow rounded-lg p-6">
                                 <h2 className="text-xl font-semibold mb-4 text-[hsl(var(--foreground))]">
                                     Nueva Tarea

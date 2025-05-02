@@ -11,8 +11,7 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
     const { isAuthenticated, token, hasHydrated } = useAuthStore();
     const location = useLocation();
 
-    useEffect(() => {
-    }, [isAuthenticated, token, hasHydrated]);
+    useEffect(() => {}, [isAuthenticated, token, hasHydrated]);
 
     // Si el estado de persistencia aún no se ha cargado, mostrar cargando
     if (!hasHydrated) {

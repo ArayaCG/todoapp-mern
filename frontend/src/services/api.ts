@@ -1,11 +1,8 @@
-// src/lib/api.ts
 import axios from "axios";
 import { useAuthStore } from "../store/authStore";
 
-const API_URL = "http://localhost:5000/api";
-
 const api = axios.create({
-    baseURL: API_URL,
+    baseURL: import.meta.env.VITE_API_URL,
     headers: {
         "Content-Type": "application/json",
     },
@@ -23,7 +20,7 @@ api.interceptors.request.use(
                 const timeout = setTimeout(() => {
                     console.warn("Zustand hydration timeout");
                     resolve();
-                }, 1000); // máximo 1 segundo
+                }, 1000);
 
                 const unsubscribe = useAuthStore.subscribe((state) => {
                     if (state.hasHydrated) {
