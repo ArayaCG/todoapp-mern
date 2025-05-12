@@ -18,6 +18,7 @@ interface TaskState {
     updateTaskStatus: (id: string, completed: boolean) => Promise<void>;
     editTask: (id: string, title: string, description: string) => Promise<void>;
     removeTask: (id: string) => Promise<void>;
+    cleanTask: () => Promise<void>;
 }
 
 export const useTaskStore = create<TaskState>((set, get) => ({
@@ -39,6 +40,14 @@ export const useTaskStore = create<TaskState>((set, get) => ({
                 isLoading: false,
             });
         }
+    },
+
+    cleanTask: async () => {
+        set({
+            tasks: [],
+            isLoading: false,
+            error: null,
+        });
     },
 
     addTask: async (title, description) => {

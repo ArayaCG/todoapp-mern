@@ -14,7 +14,7 @@ type SortDirection = "asc" | "desc";
 
 const Dashboard = () => {
     const { user, logout } = useAuthStore();
-    const { tasks, fetchTasks, isLoading } = useTaskStore();
+    const { tasks, fetchTasks, isLoading, cleanTask } = useTaskStore();
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentTask, setCurrentTask] = useState<Task | null>(null);
     const [activeFilter, setActiveFilter] = useState<FilterType>("all");
@@ -37,6 +37,11 @@ const Dashboard = () => {
     const handleCloseModal = () => {
         setCurrentTask(null);
         setIsModalOpen(false);
+    };
+
+    const closeSesion = () => {
+        cleanTask();
+        logout();
     };
 
     const toggleSortDirection = () => {
@@ -73,7 +78,7 @@ const Dashboard = () => {
                             <span>Hola, {user?.name}</span>
                         </div>
                         <div>
-                            <button onClick={logout} className="btn btn-secondary w-auto min-w-[100px]">
+                            <button onClick={closeSesion} className="btn btn-secondary w-auto min-w-[100px]">
                                 Cerrar sesión
                             </button>
                         </div>
